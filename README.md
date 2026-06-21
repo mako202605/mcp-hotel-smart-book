@@ -51,7 +51,7 @@
   "mcpServers": {
     "hotel-smart-book": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/mako202605/mcp-hotel-smart-book.git", "mcp-hotel-smart-book"],
+      "args": ["mcp-hotel-smart-book"],
       "env": {
         "PROXY_TOKEN": ""
       }
