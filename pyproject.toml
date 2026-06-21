@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-hotel-smart-book"
+version = "1.0.0"
+description = "酒店聪明订 - 多平台酒店比价+低价日历+订房决策建议MCP服务"
+requires-python = ">=3.10"
+dependencies = ["fastmcp"]
+
+[project.scripts]
+mcp-hotel-smart-book = "mcp_hotel_smart_book:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mcp_hotel_smart_book"]
